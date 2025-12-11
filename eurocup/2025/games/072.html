@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neptunas vs Aris</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: white;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.2;
+            white-space: pre;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            font-size: 15px;
+        }
+        
+        .navigation {
+            margin-bottom: 0px;
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        .nav-link {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        
+        .current-round {
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        
+        .games-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            justify-content: center;
+        }
+        
+        .game-box {
+            text-align: center;
+        }
+        
+        .quarter-table {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .team-stats {
+            margin-bottom: 10px;
+        }
+        
+        .player-stats {
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .player-stats-row {
+            background-color: #f2f2f2;
+            padding: 1px 0;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 13px;
+            }
+            
+            .games-container {
+                grid-template-columns: 1fr;
+                gap: 12px;
+                max-width: 100%;
+                
+            }
+            
+            .navigation {
+                font-size: 14px
+            }
+            
+            .nav-link {
+                margin: 0 5px;
+            }
+            
+            .game-box {
+                margin-bottom: 8px;
+            }
+            
+            .quarter-table {
+                margin-bottom: 8px;
+            }
+            
+            .team-stats {
+                margin-bottom: 8px;
+            }
+            
+            .player-stats {
+                margin-bottom: 8px;
+                overflow-x: auto;
+            }
+            
+            .player-stats-row {
+                padding: 2px 0;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 5px;
+                font-size: 13px;
+            }
+            
+            .navigation {
+                font-size: 14px
+            }
+
+            .games-container {
+                grid-template-columns: 1fr;
+                gap: 12px;
+                max-width: 100%;
+                
+            }
+            
+            .nav-link {
+                margin: 0 4px;
+            }
+            
+            .quarter-table {
+            }
+            
+            .team-stats {
+            }
+            
+            .player-stats {
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navigation">
+    <a href="../index.html" class="nav-link" style="color: blue;">Games</a><a href="../standings.html" class="nav-link" style="color: blue;">Standings</a><a href="../teams.html" class="nav-link" style="color: blue;">Teams</a><a href="../players_stats.html" class="nav-link" style="color: blue;">Leaders</a>
+
+    <a href="../2025_8.html" class="nav-link" style="color: blue;"><b>< Round 8</b></a>    
+</div text-align: center;>
+
+<div class="game-box" style="text-align: center;">
+    <h3>NEPTUNAS 87-93 ARIS</h3>
+</div>
+
+<div class="games-container">
+<div class="quarter-table" style="text-align: center;">      1  2  3  4   F   
+--------------------  
+NEP  28 18 18 23 <b> 87</b>  
+ARI  21 29 23 20 <b> 93</b>  </div>
+<div class="team-stats" style="text-align: center;"><b>Team Stats:</b>
+    PTS   2PT   3PT   FT  OR/DR/TR  A  S  TO  B
+NEP <b> 87</b> 11/20 16/43 17/17 10/19/29 16  7  16  0
+<b>55.0% 37.2% 100.0%</b>              
+ARI <b> 93</b> 23/43 11/21 14/17 10/25/35 18  7  15  2
+<b>53.5% 52.4% 82.4%</b>              </div>
+<div class="team-advanced-stats" style="text-align: center;"><b>Team Advanced Stats:</b>
+        Pace  eFG%  TOV%  ORB%  FTr
+    NEP  <b>76.5  55.6  20.9  28.6  27.0</b>
+    ARI  <b>76.5  61.7  19.6  34.5  26.6</b></div>
+<div class="player-stats">
+<b>NEPTUNAS KLAIPEDA</b>
+
+  MIN  2PT  3PT   FT  R  A  S  B TO PF PTS <b>PIR</b>
+----------------------------------------------
+<span class="player-stats-row">Rihards Lomazs G                           <span style='color: grey'> +1</span>
+30:54  5/12 3/6  7/7  3  7  2  0  2  3  26 <b> 28</b></span>
+Arnas Velicka G                            <span style='color: grey'> -6</span>
+30:02  2/2  3/9  0/0  5  3  3  0  7  0  13 <b> 13</b>
+<span class="player-stats-row">Zane Waterman F                            <span style='color: grey'>+10</span>
+25:11  0/0  3/6  0/0  2  1  0  0  1  4   9 <b>  5</b></span>
+Arnas Berucka F                            <span style='color: grey'> -2</span>
+18:28  0/0  1/3  1/1  2  0  0  0  0  2   4 <b>  5</b>
+<span class="player-stats-row">Donatas Tarolis F                          <span style='color: grey'> +6</span>
+17:44  1/2  1/1  2/2  4  3  0  0  2  4   7 <b>  8</b></span>
+----------------------------------------------
+Mindaugas Girdziunas G                     <span style='color: grey'> -1</span>
+26:51  0/0  1/6  4/4  3  1  2  0  0  2   7 <b> 10</b>
+<span class="player-stats-row">Harrison Cleary G                          <span style='color: grey'> -7</span>
+23:45  0/1  4/8  0/0  0  1  0  0  0  5  12 <b>  5</b></span>
+Aurimas Majauskas                          <span style='color: grey'> -8</span>
+19:30  3/3  0/1  3/3  4  0  0  0  2  4   9 <b>  8</b>
+<span class="player-stats-row">Vitalijus Kozys F                          <span style='color: grey'> -5</span>
+ 3:35  0/0  0/2  0/0  0  0  0  0  1  2   0 <b> -5</b></span>
+Matas Macijauskas C                        <span style='color: grey'>-12</span>
+ 3:11  0/0  0/0  0/0  0  0  0  0  0  0   0 <b>  0</b>
+<span class="player-stats-row">Kristupas Lesciauskas                      <span style='color: grey'> -6</span>
+ 0:49  0/0  0/1  0/0  0  0  0  0  0  0   0 <b> -1</b></span>
+Radvilas Kneizys G                            
+ Did not play                                 
+
+<b>Team Totals:</b>
+      2PT   3PT   FT  OR/DR/TR  A  S  TO  B PTS
+NEP 11/20 16/43 17/17 10/19/29 16  7  16  0 <b> 87</b>
+    <b>55.0% 37.2% 100.0%</b>
+
+
+<b>ARIS THESSALONIKI BETSSON</b>
+
+  MIN  2PT  3PT   FT  R  A  S  B TO PF PTS <b>PIR</b>
+----------------------------------------------
+<span class="player-stats-row">Bryce Jones G                              <span style='color: grey'> +8</span>
+26:09  5/12 0/3  7/8  8  7  3  0  4  4  17 <b> 21</b></span>
+Elijah - Mitrou Long G                     <span style='color: grey'> -3</span>
+22:42  3/7  3/4  2/2  5  3  1  0  0  4  17 <b> 18</b>
+<span class="player-stats-row">Eleftherios Bochoridis G                   <span style='color: grey'>  0</span>
+18:46  0/2  1/1  0/0  0  3  0  0  1  2   3 <b>  4</b></span>
+Jakob Dwight Forester C                    <span style='color: grey'> -2</span>
+12:25  3/4  0/0  0/0  2  0  0  0  2  3   6 <b>  4</b>
+<span class="player-stats-row">Amine Noua                                 <span style='color: grey'>+11</span>
+29:51  5/8  3/5  5/7  8  0  0  0  1  1  24 <b> 32</b></span>
+----------------------------------------------
+Ronnie Harrell F                           <span style='color: grey'> +6</span>
+32:38  4/4  1/4  0/0  4  4  3  0  2  2  11 <b> 17</b>
+<span class="player-stats-row">Arnoldas Kulboka F                         <span style='color: grey'> +6</span>
+28:56  1/4  3/4  0/0  4  1  0  1  2  1  11 <b> 12</b></span>
+Stylianos Poulianitis G                    <span style='color: grey'> +6</span>
+19:37  1/1  0/0  0/0  0  0  0  0  0  3   2 <b> -1</b>
+<span class="player-stats-row">Steven Enoch C                             <span style='color: grey'> -3</span>
+ 7:59  1/1  0/0  0/0  1  0  0  1  2  4   2 <b> -2</b></span>
+Vasillis Kazamias                          <span style='color: grey'> +1</span>
+ 0:57  0/0  0/0  0/0  0  0  0  0  0  0   0 <b>  0</b>
+<span class="player-stats-row">Panagiotis Lefas                              
+ Did not play                                 </span>
+Georgios Gkiouzelis F                         
+ Did not play                                 
+
+<b>Team Totals:</b>
+      2PT   3PT   FT  OR/DR/TR  A  S  TO  B PTS
+ARI 23/43 11/21 14/17 10/25/35 18  7  15  2 <b> 93</b>
+    <b>53.5% 52.4% 82.4%</b></div>
+</div>
+</body>
+</html>

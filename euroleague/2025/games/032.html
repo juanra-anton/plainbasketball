@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayern vs Milan</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: white;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.2;
+            white-space: pre;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            font-size: 15px;
+        }
+        
+        .navigation {
+            margin-bottom: 0px;
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        .nav-link {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        
+        .current-round {
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        
+        .games-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            justify-content: center;
+        }
+        
+        .game-box {
+            text-align: center;
+        }
+        
+        .quarter-table {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .team-stats {
+            margin-bottom: 10px;
+        }
+        
+        .player-stats {
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .player-stats-row {
+            background-color: #f2f2f2;
+            padding: 1px 0;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 13px;
+            }
+            
+            .games-container {
+                grid-template-columns: 1fr;
+                gap: 12px;
+                max-width: 100%;
+                
+            }
+            
+            .navigation {
+                margin-bottom: 12px;
+                font-size: 14px
+            }
+            
+            .nav-link {
+                margin: 0 5px;
+            }
+            
+            .game-box {
+                margin-bottom: 8px;
+            }
+            
+            .quarter-table {
+                margin-bottom: 8px;
+            }
+            
+            .team-stats {
+                margin-bottom: 8px;
+            }
+            
+            .player-stats {
+                margin-bottom: 8px;
+                overflow-x: auto;
+            }
+            
+            .player-stats-row {
+                padding: 2px 0;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 5px;
+                font-size: 13px;
+            }
+            
+            .navigation {
+                margin-bottom: 10px;
+                font-size: 14px
+            }
+
+            .games-container {
+                grid-template-columns: 1fr;
+                gap: 12px;
+                max-width: 100%;
+                
+            }
+            
+            .nav-link {
+                margin: 0 4px;
+            }
+            
+            .quarter-table {
+            }
+            
+            .team-stats {
+            }
+            
+            .player-stats {
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navigation">
+    <a href="../index.html" class="nav-link" style="color: blue;"><b>EUROLEAGUE</b></a><a href="../../../eurocup/2025/index.html" class="nav-link" style="color: blue;"><b>EUROCUP</b></a>
+</div>
+
+<div class="navigation">
+    <a href="../index.html" class="nav-link" style="color: blue;">Games</a><a href="../standings.html" class="nav-link" style="color: blue;">Standings</a><a href="../teams.html" class="nav-link" style="color: blue;">Teams</a><a href="../players_stats.html" class="nav-link" style="color: blue;">Leaders</a>
+
+    <a href="../2025_4.html" class="nav-link" style="color: blue;"><b>< Round 4</b></a>    
+</div text-align: center;>
+
+<div class="game-box" style="text-align: center;">
+    <h3>BAYERN 64-53 MILAN</h3>
+</div>
+
+<div class="games-container">
+<div class="quarter-table" style="text-align: center;">      1  2  3  4   F   
+--------------------  
+BAY  16 12 18 18 <b> 64</b>  
+EA7  14 19  7 13 <b> 53</b>  </div>
+<div class="team-stats" style="text-align: center;"><b>Team Stats:</b>
+    PTS   2PT   3PT   FT  OR/DR/TR  A  S  TO  B
+BAY <b> 64</b> 16/33  6/25 14/17  8/26/34 14  8   9  2
+<b>48.5% 24.0% 82.4%</b>              
+EA7 <b> 53</b> 16/40  3/19 12/14 14/29/43 10  3  15  2
+<b>40.0% 15.8% 85.7%</b>              </div>
+<div class="team-advanced-stats" style="text-align: center;"><b>Team Advanced Stats:</b>
+        Pace  eFG%  TOV%  ORB%  FTr
+    BAY  <b>66.5  43.1  13.5  21.6  29.3</b>
+    EA7  <b>66.2  34.7  22.7  35.0  23.7</b></div>
+<div class="player-stats">
+<b>FC BAYERN MUNICH</b>
+
+  MIN  2PT  3PT   FT  R  A  S  B TO PF PTS <b>PIR</b>
+----------------------------------------------
+<span class="player-stats-row">Kamar Baldwin G                            <span style='color: grey'>+10</span>
+27:19  4/9  1/6  0/0  4  3  3  0  1  2  11 <b>  9</b></span>
+Xavier Rathan-Mayes G                      <span style='color: grey'> -8</span>
+15:25  0/1  0/4  1/2  2  1  1  0  1  1   1 <b> -1</b>
+<span class="player-stats-row">Vladimir Lucic F                           <span style='color: grey'>+10</span>
+27:19  3/5  1/2  6/7  5  1  1  0  0  0  15 <b> 24</b></span>
+Isiaha Mike F                              <span style='color: grey'> +6</span>
+23:28  2/4  1/1  0/1  4  2  0  0  1  4   7 <b>  7</b>
+<span class="player-stats-row">David Mccormack C                          <span style='color: grey'> -5</span>
+13:59  0/0  0/0  0/0  1  1  0  0  2  2   0 <b> -2</b></span>
+----------------------------------------------
+Andreas Obst G                             <span style='color: grey'>+17</span>
+25:50  0/1  3/9  5/5  5  1  1  0  1  1  14 <b> 15</b>
+<span class="player-stats-row">Wenyen Gabriel C                           <span style='color: grey'> +7</span>
+21:49  2/4  0/0  0/0  5  1  1  2  2  3   4 <b>  7</b></span>
+Niels Giffey F                             <span style='color: grey'> +5</span>
+16:32  4/5  0/2  0/0  2  0  0  0  0  1   8 <b>  6</b>
+<span class="player-stats-row">Justinian Jessup G                         <span style='color: grey'> +1</span>
+12:41  1/3  0/1  0/0  2  2  1  0  0  3   2 <b>  0</b></span>
+Justus Hollatz G                           <span style='color: grey'> +3</span>
+11:26  0/1  0/0  2/2  0  1  0  0  0  2   2 <b>  2</b>
+<span class="player-stats-row">Leon Kratzer C                             <span style='color: grey'> +9</span>
+ 4:12  0/0  0/0  0/0  2  1  0  0  0  1   0 <b>  2</b></span>
+Oscar Da Silva F                              
+ Did not play                                 
+
+<b>Team Totals:</b>
+      2PT   3PT   FT  OR/DR/TR  A  S  TO  B PTS
+BAY 16/33  6/25 14/17  8/26/34 14  8   9  2 <b> 64</b>
+    <b>48.5% 24.0% 82.4%</b>
+
+
+<b>EA7 EMPORIO ARMANI MILAN</b>
+
+  MIN  2PT  3PT   FT  R  A  S  B TO PF PTS <b>PIR</b>
+----------------------------------------------
+<span class="player-stats-row">Quinn Ellis G                              <span style='color: grey'>-10</span>
+20:27  1/6  0/0  2/2  3  0  0  0  2  2   4 <b>  0</b></span>
+Leandro Bolmaro G                          <span style='color: grey'> -9</span>
+17:28  2/4  0/1  0/0  3  1  0  0  3  2   4 <b>  0</b>
+<span class="player-stats-row">Shavon Shields F                           <span style='color: grey'> -8</span>
+30:13  1/4  2/6  2/3  5  0  1  1  0  0  10 <b> 12</b></span>
+Devin Booker C                             <span style='color: grey'> -7</span>
+30:01  3/5  0/2  5/5 12  2  0  0  1  1  11 <b> 27</b>
+<span class="player-stats-row">Lorenzo Brown                              <span style='color: grey'> -2</span>
+26:06  3/7  0/4  2/2  7  4  1  0  3  1   8 <b> 11</b></span>
+----------------------------------------------
+Armoni Brooks G                            <span style='color: grey'> -8</span>
+22:48  2/6  1/3  0/0  5  1  1  1  0  3   7 <b>  6</b>
+<span class="player-stats-row">Marko Guduric G                            <span style='color: grey'> +2</span>
+19:54  1/3  0/2  1/2  2  1  0  0  4  4   3 <b> -6</b></span>
+Niccolo Mannion G                          <span style='color: grey'> -9</span>
+13:54  2/3  0/0  0/0  0  0  0  0  1  2   4 <b>  0</b>
+<span class="player-stats-row">Giampaolo Ricci F                          <span style='color: grey'>  0</span>
+ 9:10  1/1  0/1  0/0  1  1  0  0  0  2   2 <b>  1</b></span>
+Bryant Dunston C                           <span style='color: grey'> -3</span>
+ 6:55  0/1  0/0  0/0  1  0  0  0  0  1   0 <b>  0</b>
+<span class="player-stats-row">Ousmane Diop                               <span style='color: grey'> -1</span>
+ 3:04  0/0  0/0  0/0  1  0  0  0  0  0   0 <b>  1</b></span>
+Stefano Tonut                                 
+ Did not play                                 
+
+<b>Team Totals:</b>
+      2PT   3PT   FT  OR/DR/TR  A  S  TO  B PTS
+EA7 16/40  3/19 12/14 14/29/43 10  3  15  2 <b> 53</b>
+    <b>40.0% 15.8% 85.7%</b></div>
+</div>
+</body>
+</html>

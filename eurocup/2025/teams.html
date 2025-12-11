@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroLeague Teams</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: white;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.2;
+            white-space: pre;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .navigation {
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        .nav-link {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        
+        .teams-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .team-link {
+            text-decoration: none;
+            padding: 5px;
+            display: block;
+        }
+        
+        .team-link:hover {
+            text-decoration: underline;
+        }
+        
+        .team-row {
+            padding: 1px;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 13px;
+            }
+            
+            .navigation {
+                font-size: 14px;
+            }
+            
+            .nav-link {
+                margin: 0 5px;
+                font-size: 14px;
+            }
+            
+            .teams-container {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 8px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+                font-size: 12px;
+            }
+            
+            .navigation {
+                font-size: 14px;
+            }
+            
+            .teams-container {
+                grid-template-columns: 1fr;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navigation">
+    <a href="../../euroleague/2025/index.html" class="nav-link" style="color: blue;"><b>EUROLEAGUE</b></a><a href="index.html" class="nav-link" style="color: blue;"><b>EUROCUP</b></a>
+</div>
+
+<div class="navigation">
+    <a href="index.html" class="nav-link" style="color: blue;">Games</a><a href="standings.html" class="nav-link" style="color: blue;">Standings</a><a href="teams.html" class="nav-link" style="color: blue;">Teams</a><a href="players_stats.html" class="nav-link" style="color: blue;">Leaders</a>
+</div>
+
+<div style="text-align: center;">
+ <b>EUROCUP 25-26 TEAMS</b>
+
+</div>
+
+<div class="teams-container">
+<a href="teams/ARI.html" class="team-link"><span class="team-row">Aris</span></a>
+<a href="teams/MAN.html" class="team-link"><span class="team-row">Manresa</span></a>
+<a href="teams/BKS.html" class="team-link"><span class="team-row">Bahcesehir</span></a>
+<a href="teams/BJK.html" class="team-link"><span class="team-row">Besiktas</span></a>
+<a href="teams/BUD.html" class="team-link"><span class="team-row">Buducnost</span></a>
+<a href="teams/COL.html" class="team-link"><span class="team-row">Cedevita Olimpija</span></a>
+<a href="teams/JLB.html" class="team-link"><span class="team-row">Bourg</span></a>
+<a href="teams/TRE.html" class="team-link"><span class="team-row">Trento</span></a>
+<a href="teams/JLM.html" class="team-link"><span class="team-row">Hapoel Jerusalem</span></a>
+<a href="teams/LIE.html" class="team-link"><span class="team-row">Lietkabelis</span></a>
+<a href="teams/LDN.html" class="team-link"><span class="team-row">London</span></a>
+<a href="teams/NIN.html" class="team-link"><span class="team-row">Chemnitz</span></a>
+<a href="teams/NEP.html" class="team-link"><span class="team-row">Neptunas</span></a>
+<a href="teams/PAN.html" class="team-link"><span class="team-row">Panionios</span></a>
+<a href="teams/WKS.html" class="team-link"><span class="team-row">Slask</span></a>
+<a href="teams/TTA.html" class="team-link"><span class="team-row">Turk Telekom</span></a>
+<a href="teams/UBT.html" class="team-link"><span class="team-row">Cluj</span></a>
+<a href="teams/URV.html" class="team-link"><span class="team-row">Reyer Venice</span></a>
+<a href="teams/HAM.html" class="team-link"><span class="team-row">Hamburg</span></a>
+<a href="teams/ULM.html" class="team-link"><span class="team-row">Ulm</span></a>
+</div>
+
+</body>
+</html>

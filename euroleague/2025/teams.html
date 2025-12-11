@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroLeague Teams</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: white;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.2;
+            white-space: pre;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .navigation {
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        .nav-link {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        
+        .teams-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .team-link {
+            text-decoration: none;
+            padding: 5px;
+            display: block;
+        }
+        
+        .team-link:hover {
+            text-decoration: underline;
+        }
+        
+        .team-row {
+            padding: 1px;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 13px;
+            }
+            
+            .navigation {
+                font-size: 14px;
+            }
+            
+            .nav-link {
+                margin: 0 5px;
+                font-size: 14px;
+            }
+            
+            .teams-container {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 8px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+                font-size: 12px;
+            }
+            
+            .navigation {
+                font-size: 14px;
+            }
+            
+            .teams-container {
+                grid-template-columns: 1fr;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navigation">
+    <a href="index.html" class="nav-link" style="color: blue;"><b>EUROLEAGUE</b></a><a href="../../eurocup/2025/index.html" class="nav-link" style="color: blue;"><b>EUROCUP</b></a>
+</div>
+
+<div class="navigation">
+    <a href="index.html" class="nav-link" style="color: blue;">Games</a><a href="standings.html" class="nav-link" style="color: blue;">Standings</a><a href="teams.html" class="nav-link" style="color: blue;">Teams</a><a href="players_stats.html" class="nav-link" style="color: blue;">Leaders</a>
+</div>
+
+<div style="text-align: center;">
+ <b>EUROLEAGUE 25-26 TEAMS</b>
+
+</div>
+
+<div class="teams-container">
+<a href="teams/ASM.html" class="team-link"><span class="team-row">Monaco</span></a>
+<a href="teams/EFS.html" class="team-link"><span class="team-row">Anadolu Efes</span></a>
+<a href="teams/CZV.html" class="team-link"><span class="team-row">Crvena Zvezda</span></a>
+<a href="teams/DUB.html" class="team-link"><span class="team-row">Dubai</span></a>
+<a href="teams/EA7.html" class="team-link"><span class="team-row">Milan</span></a>
+<a href="teams/BAR.html" class="team-link"><span class="team-row">Barcelona</span></a>
+<a href="teams/BAY.html" class="team-link"><span class="team-row">Bayern</span></a>
+<a href="teams/FBB.html" class="team-link"><span class="team-row">Fenerbahce</span></a>
+<a href="teams/HTA.html" class="team-link"><span class="team-row">Hapoel Tel Aviv</span></a>
+<a href="teams/KBA.html" class="team-link"><span class="team-row">Baskonia</span></a>
+<a href="teams/ASV.html" class="team-link"><span class="team-row">ASVEL</span></a>
+<a href="teams/MTA.html" class="team-link"><span class="team-row">Maccabi</span></a>
+<a href="teams/OLY.html" class="team-link"><span class="team-row">Olympiacos</span></a>
+<a href="teams/PAO.html" class="team-link"><span class="team-row">Panathinaikos</span></a>
+<a href="teams/PBB.html" class="team-link"><span class="team-row">Paris</span></a>
+<a href="teams/PAR.html" class="team-link"><span class="team-row">Partizan</span></a>
+<a href="teams/RMB.html" class="team-link"><span class="team-row">Real Madrid</span></a>
+<a href="teams/VBC.html" class="team-link"><span class="team-row">Valencia</span></a>
+<a href="teams/VIR.html" class="team-link"><span class="team-row">Virtus</span></a>
+<a href="teams/ZAL.html" class="team-link"><span class="team-row">Zalgiris</span></a>
+</div>
+
+</body>
+</html>

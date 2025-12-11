@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plain Basketball</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%221em%22 font-size=%2280%22>🏀</text></svg>">
+    
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: white;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.2;
+            white-space: pre;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .dark_mode {
+            background-color: black;
+            color: white;
+        }
+        
+        .navigation {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .nav-round {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .nav-link {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        
+        .current-round {
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        
+        .games-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            justify-content: center;
+        }
+        
+        .game-box {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 14px;
+            }
+            
+            .games-container {
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+            }
+            
+            .game-box {
+                margin-bottom: 5px;
+            }
+            
+            .navigation {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            
+            .nav-link {
+                margin: 0 5px;
+                display: inline-block;
+            }
+            
+            .current-round {
+                margin: 0 5px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+                font-size: 12px 1fr;
+            }
+            
+            .games-container {
+                gap: 12px;
+            }
+            
+            .navigation {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navigation">
+    <a href="index.html" class="nav-link" style="color: blue;"><b>EUROLEAGUE</b></a><a href="../../eurocup/2025/index.html" class="nav-link" style="color: blue;"><b>EUROCUP</b></a>
+</div>
+
+<div class="navigation">
+    <a href="2025_14.html" class="nav-link" style="color: blue;">Games</a><a href="standings.html" class="nav-link" style="color: blue;">Standings</a><a href="teams.html" class="nav-link" style="color: blue;">Teams</a><a href="players_stats.html" class="nav-link" style="color: blue;">Leaders</a>
+</div>
+
+<div style="text-align: center;">
+<b>EUROLEAGUE 25-26 GAMES</b>
+</div>
+
+<div class="nav-round">
+    <a href="2025_13.html" class="nav-link" style="color: blue;">← Round 13</a><span class="current-round">Round 14</span>
+</div>
+
+<div class="games-container">
+<div class="game-box"><a href="games/131.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>ASM</b>      <b>125</b> |
+| PBB      104 |
++--------------+</a></div>
+<div class="game-box"><a href="games/132.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>PAR</b>      <b> 92</b> |
+| BAY       85 |
++--------------+</a></div>
+<div class="game-box"><a href="games/133.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>HTA</b>      <b> 87</b> |
+| ASV       80 |
++--------------+</a></div>
+<div class="game-box"><a href="games/135.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| ZAL       65 |
+| <b>MTA</b>      <b> 83</b> |
++--------------+</a></div>
+<div class="game-box"><a href="games/136.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| EFS       75 |
+| <b>RMB</b>      <b> 81</b> |
++--------------+</a></div>
+<div class="game-box"><a href="games/137.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| CZV       79 |
+| <b>BAR</b>      <b> 89</b> |
++--------------+</a></div>
+<div class="game-box"><a href="games/138.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>KBA</b>      <b> 88</b> |
+| EA7       78 |
++--------------+</a></div>
+<div class="game-box"><a href="games/139.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| PAO       79 |
+| <b>VBC</b>      <b> 89</b> |
++--------------+</a></div>
+<div class="game-box"><a href="games/140.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>VIR</b>      <b> 79</b> |
+| DUB       78 |
++--------------+</a></div>
+</div>
+<div style="text-align: center; margin-top: 10px;">
+    <b><a href="https://plainbasketball.com" target="_blank" style="color: #blue; text-decoration: none;">plainbasketball.com</a></b><br>
+    Last updated: 2025-12-11
+</div>
+</body>
+</html>

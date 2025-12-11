@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slask vs Cluj</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: white;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.2;
+            white-space: pre;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            font-size: 15px;
+        }
+        
+        .navigation {
+            margin-bottom: 0px;
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        .nav-link {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        
+        .current-round {
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        
+        .games-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            justify-content: center;
+        }
+        
+        .game-box {
+            text-align: center;
+        }
+        
+        .quarter-table {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .team-stats {
+            margin-bottom: 10px;
+        }
+        
+        .player-stats {
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .player-stats-row {
+            background-color: #f2f2f2;
+            padding: 1px 0;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 13px;
+            }
+            
+            .games-container {
+                grid-template-columns: 1fr;
+                gap: 12px;
+                max-width: 100%;
+                
+            }
+            
+            .navigation {
+                font-size: 14px
+            }
+            
+            .nav-link {
+                margin: 0 5px;
+            }
+            
+            .game-box {
+                margin-bottom: 8px;
+            }
+            
+            .quarter-table {
+                margin-bottom: 8px;
+            }
+            
+            .team-stats {
+                margin-bottom: 8px;
+            }
+            
+            .player-stats {
+                margin-bottom: 8px;
+                overflow-x: auto;
+            }
+            
+            .player-stats-row {
+                padding: 2px 0;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 5px;
+                font-size: 13px;
+            }
+            
+            .navigation {
+                font-size: 14px
+            }
+
+            .games-container {
+                grid-template-columns: 1fr;
+                gap: 12px;
+                max-width: 100%;
+                
+            }
+            
+            .nav-link {
+                margin: 0 4px;
+            }
+            
+            .quarter-table {
+            }
+            
+            .team-stats {
+            }
+            
+            .player-stats {
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navigation">
+    <a href="../index.html" class="nav-link" style="color: blue;">Games</a><a href="../standings.html" class="nav-link" style="color: blue;">Standings</a><a href="../teams.html" class="nav-link" style="color: blue;">Teams</a><a href="../players_stats.html" class="nav-link" style="color: blue;">Leaders</a>
+
+    <a href="../2025_3.html" class="nav-link" style="color: blue;"><b>< Round 3</b></a>    
+</div text-align: center;>
+
+<div class="game-box" style="text-align: center;">
+    <h3>SLASK 94-93 CLUJ</h3>
+</div>
+
+<div class="games-container">
+<div class="quarter-table" style="text-align: center;">      1  2  3  4   F   
+--------------------  
+WKS  22 16 32 24 <b> 94</b>  
+UBT  24 26 23 20 <b> 93</b>  </div>
+<div class="team-stats" style="text-align: center;"><b>Team Stats:</b>
+    PTS   2PT   3PT   FT  OR/DR/TR  A  S  TO  B
+WKS <b> 94</b> 26/47  9/28 15/22 15/29/44 24  7  16  4
+<b>55.3% 32.1% 68.2%</b>              
+UBT <b> 93</b> 20/36 12/32 17/23 11/28/39 24 10  18  3
+<b>55.6% 37.5% 73.9%</b>              </div>
+<div class="team-advanced-stats" style="text-align: center;"><b>Team Advanced Stats:</b>
+        Pace  eFG%  TOV%  ORB%  FTr
+    WKS  <b>85.7  52.7  18.7  34.9  29.3</b>
+    UBT  <b>85.1  55.9  21.2  27.5  33.8</b></div>
+<div class="player-stats">
+<b>SLASK WROCLAW</b>
+
+  MIN  2PT  3PT   FT  R  A  S  B TO PF PTS <b>PIR</b>
+----------------------------------------------
+<span class="player-stats-row">Noah Kirkwood G                            <span style='color: grey'> -1</span>
+27:21  6/10 1/4  0/0  7  3  0  0  2  2  15 <b> 16</b></span>
+Jakub Niziol G                             <span style='color: grey'> +1</span>
+25:58  2/2  1/4  7/10 6  6  1  0  2  1  14 <b> 23</b>
+<span class="player-stats-row">Kadre Gray G                               <span style='color: grey'> -3</span>
+25:54  2/6  2/5  4/5  3  6  2  0  4  3  14 <b> 13</b></span>
+Jared Coleman -Jones F                     <span style='color: grey'> -5</span>
+14:33  3/6  0/2  0/0  6  3  0  1  0  0   6 <b> 11</b>
+<span class="player-stats-row">Dejon Davis                                <span style='color: grey'>+11</span>
+18:33  2/2  1/2  0/0  1  0  0  1  0  5   7 <b>  3</b></span>
+----------------------------------------------
+Stefan Dordevic C                          <span style='color: grey'> +6</span>
+25:27  8/12 0/0  3/3  8  1  2  2  2  0  19 <b> 27</b>
+<span class="player-stats-row">Issuf Sanon G                              <span style='color: grey'> +3</span>
+24:49  1/6  2/5  0/2  3  5  0  0  3  3   8 <b>  2</b></span>
+Jakub Urbaniak F                           <span style='color: grey'> -3</span>
+15:44  2/2  1/1  1/2  4  0  2  0  3  3   8 <b>  9</b>
+<span class="player-stats-row">Blazej Kulikowski G                        <span style='color: grey'> -8</span>
+11:19  0/0  0/3  0/0  1  0  0  0  0  1   0 <b> -3</b></span>
+Blazej Czerniewicz G                       <span style='color: grey'> +4</span>
+10:22  0/1  1/2  0/0  0  0  0  0  0  0   3 <b>  0</b>
+<span class="player-stats-row">Aleksander Wisniewski G                       
+ Did not play                                 </span>
+Wojciech Siembiga                             
+ Did not play                                 
+
+<b>Team Totals:</b>
+      2PT   3PT   FT  OR/DR/TR  A  S  TO  B PTS
+WKS 26/47  9/28 15/22 15/29/44 24  7  16  4 <b> 94</b>
+    <b>55.3% 32.1% 68.2%</b>
+
+
+<b>U-BT CLUJ-NAPOCA</b>
+
+  MIN  2PT  3PT   FT  R  A  S  B TO PF PTS <b>PIR</b>
+----------------------------------------------
+<span class="player-stats-row">Daron Russell G                            <span style='color: grey'> -2</span>
+31:05  3/5  2/11 9/10 8 15  1  1  5  4  21 <b> 30</b></span>
+Patrick Richard G                          <span style='color: grey'> -1</span>
+27:30  1/1  2/6  1/1  4  3  0  0  3  1   9 <b>  8</b>
+<span class="player-stats-row">Mitchell Creek F                           <span style='color: grey'> -7</span>
+32:00  7/10 1/1  1/3  3  1  0  0  1  1  18 <b> 17</b></span>
+Jeffery Taylor F                           <span style='color: grey'>+19</span>
+29:46  0/0  1/4  0/0  0  0  3  2  0  5   3 <b>  2</b>
+<span class="player-stats-row">Nathan Mensah C                            <span style='color: grey'> -5</span>
+15:17  1/2  0/0  1/2  5  0  0  0  1  1   3 <b>  5</b></span>
+----------------------------------------------
+Trey Woodbury G                            <span style='color: grey'> -6</span>
+27:01  4/8  4/6  0/0  3  1  3  0  4  0  20 <b> 17</b>
+<span class="player-stats-row">Dusan Miletic C                            <span style='color: grey'> +6</span>
+23:40  4/10 0/1  5/7 13  1  3  0  2  2  13 <b> 21</b></span>
+Saulius Kulvietis F                        <span style='color: grey'> -5</span>
+10:56  0/0  2/3  0/0  1  3  0  0  0  2   6 <b>  7</b>
+<span class="player-stats-row">Ben Altit C                                <span style='color: grey'> -4</span>
+ 2:45  0/0  0/0  0/0  0  0  0  0  1  1   0 <b> -2</b></span>
+Karel Guzman F                                
+ Did not play                                 
+<span class="player-stats-row">Alexis Petric                                 
+ Did not play                                 </span>
+
+<b>Team Totals:</b>
+      2PT   3PT   FT  OR/DR/TR  A  S  TO  B PTS
+UBT 20/36 12/32 17/23 11/28/39 24 10  18  3 <b> 93</b>
+    <b>55.6% 37.5% 73.9%</b></div>
+</div>
+</body>
+</html>

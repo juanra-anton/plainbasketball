@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plain Basketball</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%221em%22 font-size=%2280%22>🏀</text></svg>">
+    
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: white;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.2;
+            white-space: pre;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .dark_mode {
+            background-color: black;
+            color: white;
+        }
+        
+        .navigation {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .nav-round {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .nav-link {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        
+        .current-round {
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        
+        .games-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            justify-content: center;
+        }
+        
+        .game-box {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 14px;
+            }
+            
+            .games-container {
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+            }
+            
+            .game-box {
+                margin-bottom: 5px;
+            }
+            
+            .navigation {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            
+            .nav-link {
+                margin: 0 5px;
+                display: inline-block;
+            }
+            
+            .current-round {
+                margin: 0 5px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+                font-size: 12px 1fr;
+            }
+            
+            .games-container {
+                gap: 12px;
+            }
+            
+            .navigation {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navigation">
+    <a href="../../euroleague/2025/index.html" class="nav-link" style="color: blue;"><b>EUROLEAGUE</b></a><a href="index.html" class="nav-link" style="color: blue;"><b>EUROCUP</b></a>
+</div>
+
+<div class="navigation">
+    <a href="2025_10.html" class="nav-link" style="color: blue;">Games</a><a href="standings.html" class="nav-link" style="color: blue;">Standings</a><a href="teams.html" class="nav-link" style="color: blue;">Teams</a><a href="players_stats.html" class="nav-link" style="color: blue;">Leaders</a>
+</div>
+
+<div style="text-align: center;">
+<b>EUROCUP 25-26 GAMES</b>
+</div>
+
+<div class="nav-round">
+    <a href="2025_5.html" class="nav-link" style="color: blue;">← Round 5</a><span class="current-round">Round 6</span><a href="2025_7.html" class="nav-link" style="color: blue;">Round 7 →</a>
+</div>
+
+<div class="games-container">
+<div class="game-box"><a href="games/051.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>ARI</b>      <b> 85</b> |
+| WKS       78 |
++--------------+</a></div>
+<div class="game-box"><a href="games/052.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| BKS       82 |
+| <b>JLM</b>      <b> 90</b> |
++--------------+</a></div>
+<div class="game-box"><a href="games/053.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>NEP</b>      <b>100</b> |
+| MAN       87 |
++--------------+</a></div>
+<div class="game-box"><a href="games/054.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| UBT       87 |
+| <b>COL</b>      <b> 93</b> |
++--------------+</a></div>
+<div class="game-box"><a href="games/055.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>URV</b>      <b> 90</b> |
+| HAM       55 |
++--------------+</a></div>
+<div class="game-box"><a href="games/056.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>ULM</b>      <b> 87</b> |
+| LDN       86 |
++--------------+</a></div>
+<div class="game-box"><a href="games/057.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>JLB</b>      <b> 85</b> |
+| NIN       82 |
++--------------+</a></div>
+<div class="game-box"><a href="games/058.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>BUD</b>      <b> 82</b> |
+| BJK       79 |
++--------------+</a></div>
+<div class="game-box"><a href="games/059.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>TRE</b>      <b> 78</b> |
+| LIE       74 |
++--------------+</a></div>
+<div class="game-box"><a href="games/060.html" style="text-decoration: none; color: inherit">+--------------+
+|        <b>Final</b> |
+| <b>TTA</b>      <b> 95</b> |
+| PAN       67 |
++--------------+</a></div>
+</div>
+<div style="text-align: center; margin-top: 10px;">
+    <b><a href="https://plainbasketball.com" target="_blank" style="color: #blue; text-decoration: none;">plainbasketball.com</a></b><br>
+    Last updated: 2025-12-11
+</div>
+</body>
+</html>

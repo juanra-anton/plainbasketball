@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monaco Schedule</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: white;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.2;
+            white-space: pre;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .navigation {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        .nav-link {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        
+        .schedule-table {
+            margin-bottom: 10px;
+            text-align: left;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .game-row {
+            background-color: #f2f2f2;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 13px;
+            }
+            
+            .navigation {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            
+            .nav-link {
+                margin: 0 5px;
+                font-size: 14px;
+            }
+            
+            .schedule-table {
+                font-size: 13px;
+                overflow-x: auto;
+                max-width: 100%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+                font-size: 12px;
+            }
+            
+            .navigation {
+                font-size: 14px;
+            }
+            
+            .schedule-table {
+                font-size: 12px;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navigation">
+    <a href="../index.html" class="nav-link" style="color: blue;"><b>EUROLEAGUE</b></a><a href="../../../eurocup/2025/index.html" class="nav-link" style="color: blue;"><b>EUROCUP</b></a>
+</div>
+
+<div class="navigation">
+    <a href="../index.html" class="nav-link" style="color: blue;">Games</a><a href="../standings.html" class="nav-link" style="color: blue;">Standings</a><a href="../teams.html" class="nav-link" style="color: blue;">Teams</a><a href="../players_stats.html" class="nav-link" style="color: blue;">Leaders</a>
+</div>
+
+<div style="text-align: center;">
+<b>AS MONACO SCHEDULE 25-26</b>
+
+<a href="ASM_players.html" class="nav-link" style="color: blue;">Player Stats</a>
+</div>
+
+<div class="schedule-table">
+ R  DATE  OPPONENT           RESULT
+-------------------------------------
+<a href="../games/009.html" style="text-decoration: none; color: inherit;"> 1  1/10 vs Zalgiris          84-89 <span style="color:red"><b>L</b></span></a>
+<a href="../games/016.html" style="text-decoration: none; color: inherit;"><span class="game-row"> 2  3/10 vs Dubai            103-81 <span style="color:green"><b>W</b></span></span></a>
+<a href="../games/023.html" style="text-decoration: none; color: inherit;"> 3  9/10 @ Milan              79-82 <span style="color:green"><b>W</b></span></a>
+<a href="../games/040.html" style="text-decoration: none; color: inherit;"><span class="game-row"> 4 15/10 @ Virtus             77-73 <span style="color:red"><b>L</b></span></span></a>
+<a href="../games/046.html" style="text-decoration: none; color: inherit;"> 5 17/10 vs Valencia          90-84 <span style="color:green"><b>W</b></span></a>
+<a href="../games/055.html" style="text-decoration: none; color: inherit;"><span class="game-row"> 6 23/10 @ Hapoel Tel Aviv    85-77 <span style="color:red"><b>L</b></span></span></a>
+<a href="../games/070.html" style="text-decoration: none; color: inherit;"> 7 29/10 @ Olympiacos         87-92 <span style="color:green"><b>W</b></span></a>
+<a href="../games/077.html" style="text-decoration: none; color: inherit;"><span class="game-row"> 8 31/10 vs Panathinaikos     92-84 <span style="color:green"><b>W</b></span></span></a>
+<a href="../games/086.html" style="text-decoration: none; color: inherit;"> 9  6/11 @ Maccabi          107-112 <span style="color:green"><b>W</b></span></a>
+<a href="../games/097.html" style="text-decoration: none; color: inherit;"><span class="game-row">10 11/11 @ Partizan           78-76 <span style="color:red"><b>L</b></span></span></a>
+<a href="../games/105.html" style="text-decoration: none; color: inherit;">11 13/11 @ Crvena Zvezda      91-79 <span style="color:red"><b>L</b></span></a>
+<a href="../games/111.html" style="text-decoration: none; color: inherit;"><span class="game-row">12 19/11 @ ASVEL              52-84 <span style="color:green"><b>W</b></span></span></a>
+<a href="../games/127.html" style="text-decoration: none; color: inherit;">13 26/11 vs Anadolu Efes     102-66 <span style="color:green"><b>W</b></span></a>
+<a href="../games/131.html" style="text-decoration: none; color: inherit;"><span class="game-row">14  4/12 vs Paris                    </span></a>
+<a href="../games/147.html" style="text-decoration: none; color: inherit;">15 12/12 vs Fenerbahce               </a>
+<a href="../games/157.html" style="text-decoration: none; color: inherit;"><span class="game-row">16 17/12 @ Baskonia                  </span></a>
+<a href="../games/166.html" style="text-decoration: none; color: inherit;">17 19/12 vs Bayern                   </a>
+<a href="../games/178.html" style="text-decoration: none; color: inherit;"><span class="game-row">18 26/12 vs Real Madrid              </span></a>
+<a href="../games/181.html" style="text-decoration: none; color: inherit;">19 30/12 @ Barcelona                 </a>
+<a href="../games/191.html" style="text-decoration: none; color: inherit;"><span class="game-row">20   6/1 vs Partizan                 </span></a>
+<a href="../games/203.html" style="text-decoration: none; color: inherit;">21   8/1 @ Valencia                  </a>
+<a href="../games/214.html" style="text-decoration: none; color: inherit;"><span class="game-row">22  15/1 @ Paris                     </span></a>
+<a href="../games/221.html" style="text-decoration: none; color: inherit;">23  20/1 vs Crvena Zvezda            </a>
+<a href="../games/235.html" style="text-decoration: none; color: inherit;"><span class="game-row">24  22/1 @ Real Madrid               </span></a>
+<a href="../games/247.html" style="text-decoration: none; color: inherit;">25  30/1 vs Virtus                   </a>
+<a href="../games/259.html" style="text-decoration: none; color: inherit;"><span class="game-row">26   3/2 @ Zalgiris                  </span></a>
+<a href="../games/262.html" style="text-decoration: none; color: inherit;">27   5/2 @ Bayern                    </a>
+<a href="../games/277.html" style="text-decoration: none; color: inherit;"><span class="game-row">28  13/2 vs Baskonia                 </span></a>
+<a href="../games/284.html" style="text-decoration: none; color: inherit;">29  26/2 vs Maccabi                  </a>
+<a href="../games/292.html" style="text-decoration: none; color: inherit;"><span class="game-row">30   5/3 @ Fenerbahce                </span></a>
+<a href="../games/306.html" style="text-decoration: none; color: inherit;">31  13/3 vs Olympiacos               </a>
+<a href="../games/316.html" style="text-decoration: none; color: inherit;"><span class="game-row">32  19/3 @ Anadolu Efes              </span></a>
+<a href="../games/321.html" style="text-decoration: none; color: inherit;">33  24/3 vs Milan                    </a>
+<a href="../games/339.html" style="text-decoration: none; color: inherit;"><span class="game-row">34  27/3 @ Panathinaikos             </span></a>
+<a href="../games/347.html" style="text-decoration: none; color: inherit;">35   3/4 @ Dubai                     </a>
+<a href="../games/360.html" style="text-decoration: none; color: inherit;"><span class="game-row">36   8/4 vs ASVEL                    </span></a>
+<a href="../games/366.html" style="text-decoration: none; color: inherit;">37  10/4 vs Barcelona                </a>
+<a href="../games/377.html" style="text-decoration: none; color: inherit;"><span class="game-row">38  17/4 vs Hapoel Tel Aviv          </span></a>
+</div>
+
+</body>
+</html>
