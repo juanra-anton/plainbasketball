@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroLeague Standings</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%221em%22 font-size=%2280%22>🏀</text></svg>">
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="050e3d10-6316-4b1f-888a-71c43ae2f0f2"></script>
+
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: white;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.2;
+            white-space: pre;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .navigation {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .nav-link {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        .standings-table {
+            margin-bottom: 10px;
+            text-align: left;
+            font-family: 'Courier New', monospace;
+        }
+
+        .standings-row {
+            background-color: #f2f2f2;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 13px;
+            }
+
+            .navigation {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+
+            .nav-link {
+                margin: 0 5px;
+                font-size: 14px;
+            }
+
+            .standings-table {
+                font-size: 13px;
+                overflow-x: auto;
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+                font-size: 13px;
+            }
+
+            .navigation {
+                font-size: 14px;
+            }
+
+            .standings-table {
+                font-size: 13px;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navigation">
+    <a href="../../acb/2026/index.html" class="nav-link" style="color: blue;"><b>ACB</b></a><a href="../../euroleague/2026/index.html" class="nav-link" style="color: blue;"><b>EUROLEAGUE</b></a><a href="index.html" class="nav-link" style="color: blue;"><b>EUROCUP</b></a>
+</div>
+
+<div class="navigation_menu">
+    <a href="index.html" class="nav-link" style="color: blue;">Games</a><a href="standings.html" class="nav-link" style="color: blue;">Standings</a><a href="teams.html" class="nav-link" style="color: blue;">Teams</a><a href="players_stats.html" class="nav-link" style="color: blue;">Stats</a>
+</div>
+
+<div style="text-align: center;">
+<b>EUROCUP 26-27 STANDINGS</b>
+</div>
+GROUP A
+<div class="standings-table">
+  TEAM  G  W  L PTS+ PTS-  +/-   H    A   L10
+---------------------------------------------
+ 1 ARI  3  3  0  268  222   46  2-0  1-0  3-0
+<span class="standings-row"> 2 JLM  3  3  0  254  221   33  1-0  2-0  3-0</span>
+ 3 RIG  3  2  1  261  250   11  2-0  0-1  2-1
+<span class="standings-row"> 4 MSB  3  1  2  239  246   -7  1-1  0-1  1-2</span>
+ 5 BUR  3  1  2  249  259  -10  1-1  0-1  1-2
+<span class="standings-row"> 6 DER  3  1  2  241  257  -16  1-0  0-2  1-2</span>
+---------------------------------------------
+ 7 ROS  3  1  2  230  262  -32  1-0  0-2  1-2
+<span class="standings-row"> 8 COL  3  0  3  224  249  -25  0-1  0-2  0-3</span>
+</div>
+GROUP B
+<div class="standings-table">
+  TEAM  G  W  L PTS+ PTS-  +/-   H    A   L10
+---------------------------------------------
+ 1 URV  3  2  1  271  235   36  2-0  0-1  2-1
+<span class="standings-row"> 2 LLT  3  2  1  255  235   20  2-0  0-1  2-1</span>
+ 3 UBT  3  2  1  247  256   -9  1-0  1-1  2-1
+<span class="standings-row"> 4 LDN  2  1  1  160  151    9  1-0  0-1  1-1</span>
+ 5 SKY  2  1  1  151  175  -24  1-0  0-1  1-1
+<span class="standings-row"> 6 TTA  3  1  2  232  234   -2  1-0  0-2  1-2</span>
+---------------------------------------------
+ 7 RMA  3  1  2  237  243   -6  1-0  0-2  1-2
+<span class="standings-row"> 8 SIA  3  1  2  220  244  -24  1-1  0-1  1-2</span>
+</div>
+
+</body>
+</html>

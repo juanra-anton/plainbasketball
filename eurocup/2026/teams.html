@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroLeague Teams</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%221em%22 font-size=%2280%22>🏀</text></svg>">
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="050e3d10-6316-4b1f-888a-71c43ae2f0f2"></script>
+
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: white;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.2;
+            white-space: pre;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .navigation {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .nav-link {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        .teams-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .team-link {
+            text-decoration: none;
+            padding: 5px;
+            display: block;
+        }
+
+        .team-link:hover {
+            text-decoration: underline;
+        }
+
+        .team-row {
+            padding: 1px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 13px;
+            }
+
+            .navigation {
+                font-size: 14px;
+            }
+
+            .nav-link {
+                margin: 0 5px;
+                font-size: 14px;
+            }
+
+            .teams-container {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 8px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+                font-size: 12px;
+            }
+
+            .navigation {
+                font-size: 14px;
+            }
+
+            .teams-container {
+                grid-template-columns: 1fr;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navigation">
+    <a href="../../acb/2026/index.html" class="nav-link" style="color: blue;"><b>ACB</b></a><a href="../../euroleague/2026/index.html" class="nav-link" style="color: blue;"><b>EUROLEAGUE</b></a><a href="index.html" class="nav-link" style="color: blue;"><b>EUROCUP</b></a>
+</div>
+
+<div class="navigation">
+    <a href="index.html" class="nav-link" style="color: blue;">Games</a><a href="standings.html" class="nav-link" style="color: blue;">Standings</a><a href="teams.html" class="nav-link" style="color: blue;">Teams</a><a href="players_stats.html" class="nav-link" style="color: blue;">Stats</a>
+</div>
+
+<div style="text-align: center;">
+ <b>EUROCUP 26-27 TEAMS</b>
+
+</div>
+
+<div class="teams-container">
+<a href="teams/ARI.html" class="team-link"><span class="team-row">Aris</span></a>
+<a href="teams/BOS.html" class="team-link"><span class="team-row">BOSNA</span></a>
+<a href="teams/DER.html" class="team-link"><span class="team-row">Derthona</span></a>
+<a href="teams/BKS.html" class="team-link"><span class="team-row">Bahcesehir</span></a>
+<a href="teams/BLK.html" class="team-link"><span class="team-row">Balkan</span></a>
+<a href="teams/BUD.html" class="team-link"><span class="team-row">Buducnost VOLI</span></a>
+<a href="teams/COL.html" class="team-link"><span class="team-row">Cedevita Olimp</span></a>
+<a href="teams/JLB.html" class="team-link"><span class="team-row">Cosea JL Bourg</span></a>
+<a href="teams/TRE.html" class="team-link"><span class="team-row">Trento</span></a>
+<a href="teams/JLM.html" class="team-link"><span class="team-row">Hapoel JLM</span></a>
+<a href="teams/MAN.html" class="team-link"><span class="team-row">K&U Manresa</span></a>
+<a href="teams/LLT.html" class="team-link"><span class="team-row">LL Tenerife</span></a>
+<a href="teams/MSB.html" class="team-link"><span class="team-row">Le Mans Sarthe</span></a>
+<a href="teams/LIE.html" class="team-link"><span class="team-row">Lietkabelis</span></a>
+<a href="teams/LDN.html" class="team-link"><span class="team-row">London</span></a>
+<a href="teams/RMA.html" class="team-link"><span class="team-row">Maxima Roma</span></a>
+<a href="teams/CHE.html" class="team-link"><span class="team-row">Chemnitz</span></a>
+<a href="teams/NAP.html" class="team-link"><span class="team-row">Napoli</span></a>
+<a href="teams/NEP.html" class="team-link"><span class="team-row">Neptunas</span></a>
+<a href="teams/PBC.html" class="team-link"><span class="team-row">PAOK</span></a>
+<a href="teams/BUR.html" class="team-link"><span class="team-row">Burgos</span></a>
+<a href="teams/RIG.html" class="team-link"><span class="team-row">Riga Zelli</span></a>
+<a href="teams/ROM.html" class="team-link"><span class="team-row">Roma</span></a>
+<a href="teams/ROS.html" class="team-link"><span class="team-row"> Rostock</span></a>
+<a href="teams/SIA.html" class="team-link"><span class="team-row">Siauliai </span></a>
+<a href="teams/SKY.html" class="team-link"><span class="team-row">Skyliners</span></a>
+<a href="teams/WKS.html" class="team-link"><span class="team-row">Slask</span></a>
+<a href="teams/TOF.html" class="team-link"><span class="team-row">Tofas Bursa</span></a>
+<a href="teams/TTA.html" class="team-link"><span class="team-row">Turk Telekom</span></a>
+<a href="teams/UBT.html" class="team-link"><span class="team-row">U-BT Cluj</span></a>
+<a href="teams/URV.html" class="team-link"><span class="team-row">Reyer Venice</span></a>
+<a href="teams/ULM.html" class="team-link"><span class="team-row">Ulm</span></a>
+</div>
+
+</body>
+</html>
